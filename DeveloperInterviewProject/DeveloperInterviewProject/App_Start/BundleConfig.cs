@@ -20,6 +20,11 @@ namespace DeveloperInterviewProject
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/custom").Include(
+                      "~/Scripts/knockout-3.4.0.js",
+                      "~/Scripts/non-nuget/dataServices/sampleService.js",
+                      "~/Scripts/non-nuget/dataModels/sampleModel.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
