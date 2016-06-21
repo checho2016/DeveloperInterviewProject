@@ -9,8 +9,9 @@ $(document).ready(function () {
 
         //functions
         getCoursesPath = function () {
-
-           
+            packSize.sampleDataService.sendCoursesProcess(inputText(), function(data) {
+                alert(data);
+            });
         };
 
         return {
