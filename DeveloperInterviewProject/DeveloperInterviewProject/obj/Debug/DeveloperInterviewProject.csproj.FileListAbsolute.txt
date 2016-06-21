@@ -98,3 +98,14 @@ C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewPro
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject\bin\es\System.Web.Http.Owin.resources.dll
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject\bin\Microsoft.Practices.Unity.dll
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject\bin\ProjectEngine.dll
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject\bin\ProjectEngine.pdb
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject\bin\Microsoft.Practices.Unity.xml
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml

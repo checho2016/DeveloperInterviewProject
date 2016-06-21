@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjectEngine.Interfaces
 {
-    public interface IStringParser
+    public interface ICoursesProcessing
     {
-        void ProcessCoursesStrings(string coursesString);
     }
 }

@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjectEngine.Implementations
 {
-    public class StringParser : Interfaces.IStringParser
+    public class CoursesProcessing : Interfaces.ICoursesProcessing
     {
-        public void ProcessCoursesStrings(string coursesString)
-        {
-
-        }
     }
 }

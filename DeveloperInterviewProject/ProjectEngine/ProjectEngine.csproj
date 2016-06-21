@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implementations\CoursesProcessing.cs" />
     <Compile Include="Implementations\StringParser.cs" />
+    <Compile Include="Interfaces\ICoursesProcessing.cs" />
     <Compile Include="Interfaces\IStringParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,0 +1,5 @@
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\ProjectEngine\bin\Debug\ProjectEngine.dll
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\ProjectEngine\bin\Debug\ProjectEngine.pdb
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\ProjectEngine\obj\Debug\ProjectEngine.csprojResolveAssemblyReference.cache
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\ProjectEngine\obj\Debug\ProjectEngine.dll
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\ProjectEngine\obj\Debug\ProjectEngine.pdb
