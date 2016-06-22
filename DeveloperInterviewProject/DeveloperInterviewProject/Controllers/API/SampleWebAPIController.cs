@@ -23,8 +23,9 @@ namespace DeveloperInterviewProject.Controllers.API
         [System.Web.Http.Route("API/SampleAPI/AnalyzeCourses")]
         public IHttpActionResult AnalyzeCourses([FromBody] string message)
         {
-            _stringParserService.ProcessCoursesStrings(message);
-            return Ok(1);
+            var result = _stringParserService.ProcessCoursesStrings(message);
+
+            return Ok(result);
         }
     }
 }
