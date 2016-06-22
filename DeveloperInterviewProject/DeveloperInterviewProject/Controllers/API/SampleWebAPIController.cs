@@ -25,6 +25,8 @@ namespace DeveloperInterviewProject.Controllers.API
         {
             var result = _stringParserService.ProcessCoursesStrings(message);
 
+            if (result.Contains("-"))
+                result = "Notice: A cricular reference was detected in the courses entered. " + result;
             return Ok(result);
         }
     }

@@ -18,10 +18,12 @@ $(document).ready(function () {
         //                           Godwin’s Law: Understanding Circular Logic \
         //                         ");
 
+        coursesResult = ko.observable("");
+
         //functions
         getCoursesPath = function () {
             packSize.sampleDataService.sendCoursesProcess(inputText(), function(data) {
-                alert(data);
+                coursesResult(data);
             });
         };
 
