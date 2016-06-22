@@ -8,6 +8,6 @@ namespace ProjectEngine.Interfaces
 {
     public interface IStringParser
     {
-        void ProcessCoursesStrings(string coursesString);
+        string ProcessCoursesStrings(string coursesString);
     }
 }
