@@ -9,6 +9,13 @@ namespace ProjectEngine.Implementations
 {
     public class StringParser : Interfaces.IStringParser
     {
+        private readonly Interfaces.ICoursesProcessing _coursesProcessingService;
+
+        public StringParser(Interfaces.ICoursesProcessing coursesProcessingService)
+        {
+            _coursesProcessingService = coursesProcessingService;
+        }
+
         public string ProcessCoursesStrings(string coursesString)
         {
             coursesString = Regex.Replace(coursesString, "(([ ]){3,}) ", Environment.NewLine);
@@ -43,7 +50,9 @@ namespace ProjectEngine.Implementations
             }
 
             var callStack = new List<string>();
-            
+
+            _coursesProcessingService.CoursesCorrelation(callStack, coursesCatalog, coursesList);
+
             var result = "";
 
             var lastItemType = "none";
@@ -67,24 +76,5 @@ namespace ProjectEngine.Implementations
             result = result.Substring(0, result.Length - 2);
             return result;
         }
-
-        private string recursiveInsight(string courseTarget, List<string> callStack, Dictionary<string, decimal> coursesCatalog, List<string> coursesList)
-        {
-            if (callStack.Contains(courseTarget))
-                return "loop";
-
-            if (coursesCatalog[courseTarget] < 1 && coursesCatalog[courseTarget] >= 0 )
-                return "base";
-            else
-            {
-                callStack.Add(courseTarget);
-                var result = coursesList.First(coursePointer => coursePointer.StartsWith(courseTarget) && coursePointer.IndexOf(courseTarget) < coursePointer.IndexOf(":"));
-                result = result.Replace(courseTarget, "");
-                result = result.Replace(":", "");
-                result = Regex.Replace(result, @"(?:((^\s\s*)|(\s*\s$)))", "");
-                return result;
-            }            
-        } 
-
     }
 }
