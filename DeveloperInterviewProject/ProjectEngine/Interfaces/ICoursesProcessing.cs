@@ -8,5 +8,6 @@ namespace ProjectEngine.Interfaces
 {
     public interface ICoursesProcessing
     {
+        void CoursesCorrelation(List<string> callStack, Dictionary<string, decimal> coursesCatalog, List<string> coursesList);
     }
 }

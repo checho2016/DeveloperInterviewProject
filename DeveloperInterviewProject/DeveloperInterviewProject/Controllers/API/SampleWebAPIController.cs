@@ -11,12 +11,10 @@ namespace DeveloperInterviewProject.Controllers.API
     public class SampleWebAPIController : ApiController
     {
         private readonly IStringParser _stringParserService;
-        private readonly ICoursesProcessing _coursesProcessingService;
 
-        public SampleWebAPIController(IStringParser stringParserService, ICoursesProcessing coursesProcessingService)
+        public SampleWebAPIController(IStringParser stringParserService)
         {
             _stringParserService = stringParserService;
-            _coursesProcessingService = coursesProcessingService;
         }
 
         [HttpPost]
