@@ -14,7 +14,6 @@ C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewPro
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\DeveloperInterviewProject.Tests.dll
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\DeveloperInterviewProject.Tests.pdb
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\DeveloperInterviewProject.dll
-C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\System.Net.Http.Formatting.dll
@@ -58,7 +57,6 @@ C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewPro
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\System.Web.Http.Owin.xml
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\EntityFramework.xml
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
-C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\obj\Debug\DeveloperInterviewProject.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\obj\Debug\DeveloperInterviewProject.Tests.dll
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\obj\Debug\DeveloperInterviewProject.Tests.pdb
@@ -86,3 +84,7 @@ C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewPro
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\ProjectEngine.pdb
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\Castle.Core.dll
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\Moq.dll
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\Castle.Core.xml
+C:\Users\Sergio Flores\Documents\DeveloperInterviewProject\DeveloperInterviewProject\DeveloperInterviewProject.Tests\bin\Debug\Moq.xml

@@ -9,20 +9,13 @@ namespace ProjectEngine.Implementations
 {
     public class StringParser : Interfaces.IStringParser
     {
-        private readonly Interfaces.ICoursesProcessing _coursesProcessingService;
-
-        public StringParser(Interfaces.ICoursesProcessing coursesProcessingService)
-        {
-            _coursesProcessingService = coursesProcessingService;
-        }
-
-        public string ProcessCoursesStrings(string coursesString)
+        public void ProcessCoursesStrings(string coursesString, Dictionary<string, decimal> coursesCatalog, ref List<string> coursesList)
         {
             coursesString = Regex.Replace(coursesString, "(([ ]){3,}) ", Environment.NewLine);
-            var coursesList = coursesString.Split(new[] { Environment.NewLine }, StringSplitOptions.None).ToList();
+            coursesString = Regex.Replace(coursesString, "\n", Environment.NewLine);
+            coursesList = coursesString.Split(new[] { Environment.NewLine }, StringSplitOptions.None).ToList();
             var courseRegex = new Regex(@".+:");
             var match = courseRegex.Match(coursesString);
-            var coursesCatalog = new Dictionary<string, decimal>();
 
             var isCannonicalCourse = new Regex(@"(?<=:).+\w");
 
@@ -47,18 +40,17 @@ namespace ProjectEngine.Implementations
                     else
                         coursesCatalog.Add(itemMatch.Value.Replace(":", ""), 0);
                 }
-            }
+            }                    
+        }
 
-            var callStack = new List<string>();
-
-            _coursesProcessingService.CoursesCorrelation(callStack, coursesCatalog, coursesList);
-
+        public string PrcessCoursesOutput(Dictionary<string, decimal> coursesCatalog)
+        {
             var result = "";
 
             var lastItemType = "none";
             foreach(var resultPointer in coursesCatalog.OrderBy(p => p.Value))
             {
-                if(resultPointer.Value % 1 == 0)
+                if (resultPointer.Value % 1 == 0)
                 {
                     if (lastItemType == "loop")
                     {
@@ -74,6 +66,10 @@ namespace ProjectEngine.Implementations
                 }
             }
             result = result.Substring(0, result.Length - 2);
+
+            if (result.Contains("-"))
+                result = "Notice: A cricular reference was detected in the courses entered. " + result;
+
             return result;
         }
     }

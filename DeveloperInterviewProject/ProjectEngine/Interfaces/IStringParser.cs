@@ -8,6 +8,7 @@ namespace ProjectEngine.Interfaces
 {
     public interface IStringParser
     {
-        string ProcessCoursesStrings(string coursesString);
+        void ProcessCoursesStrings(string coursesString, Dictionary<string, decimal> coursesCatalog, ref List<string> coursesList);
+        string PrcessCoursesOutput(Dictionary<string, decimal> coursesCatalog);
     }
 }
